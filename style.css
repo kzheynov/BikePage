@@ -18,10 +18,10 @@ html, body {
   background-color:#7BA6B7;
   box-shadow: 1px 2px 5px;
 }
-@media (max-width: 420px){
+@media (max-width: 755px){
   #header{
   flex-direction:column;
-}
+  }}
   #header-img, #nav-bar{
   margin:0;}
 }
@@ -102,6 +102,16 @@ p{
 iframe {
   max-width: 850px;
   width: 100%;}
+@media (max-width:600px){
+iframe{
+  width:100vw;
+  height:100%;
+}}
+@media (max-width:750px){
+iframe{
+  width:80vw;
+  height:100%;
+}}
 #products{
   margin-top:3em;}
 h4{
